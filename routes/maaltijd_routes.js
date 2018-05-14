@@ -8,8 +8,8 @@ routes.get('/', maaltijd_controller.getMaaltijd)
 routes.post('/', maaltijd_controller.createMaaltijd)
 
 routes.get('/:id', maaltijd_controller.getMaaltijdById)
-routes.put('/:id', personcontroller.putMaaltijd)
-routes.delete('/:id', personcontroller.deleteMaaltijd)
+routes.put('/:id', maaltijd_controller.putMaaltijd)
+routes.delete('/:id', maaltijd_controller.deleteMaaltijd)
 
 module.exports = routes
 

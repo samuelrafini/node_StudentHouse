@@ -1,6 +1,6 @@
 class Maaltijd {
 
-    constructor(naam, beschrijving, ingredienten, allergie, allergie, prijs) {
+    constructor(naam, beschrijving, ingredienten, allergie, prijs) {
         {
                 this.naam = naam,
                 this.beschrijving = beschrijving,
