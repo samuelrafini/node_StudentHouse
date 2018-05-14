@@ -15,7 +15,7 @@ module.exports = {
         res.status(200).end();
     },
     getStudentenhuisById(req, res, next){
-        console.log('getStudentenhuis was called.');
+        console.log('getStudentenhuisById was called.');
         res.status(200).end();
     },
     putStudentenhuis(req, res, next){

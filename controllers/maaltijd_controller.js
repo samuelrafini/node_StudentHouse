@@ -8,22 +8,22 @@ let MaaltijdList = []
 
 module.exports = {
     createMaaltijd(req, res, next){
-        console.log('createStudentenhuis was called');
+        console.log('createMaaltijd was called');
     },
     getMaaltijd(req, res, next){
-        console.log('getStudentenhuis was called');
+        console.log('getMaaltijd was called');
         res.status(200).end();
     },
     getMaaltijdById(req, res, next){
-        console.log('getStudentenhuis was called.');
+        console.log('getMaaltijdById was called.');
         res.status(200).end();
     },
     putMaaltijd(req, res, next){
-        console.log('putStudentenhuis was called.');
+        console.log('putMaaltijd was called.');
         res.status(200).end();
     },
     deleteMaaltijd(req, res, next){
-        console.log('deleteStudentenhuis was called.');
+        console.log('deleteMaaltijd was called.');
         res.status(200).end();
     }
 };
